@@ -1,1 +1,100 @@
-<h1>Praktikum 1</h1>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Praktikum Pemrograman Web</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #7cecff;
+      text-align: center;
+      padding: 15px 0;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 26px;
+      font-weight: bold;
+    }
+
+    header h3 {
+      margin: 5px 0;
+      font-weight: normal;
+    }
+
+    .main {
+      display: flex;
+      height: 400px;
+    }
+
+    nav {
+      width: 20%;
+      background-color: #f9f9f9;
+      border-right: 1px solid #ccc;
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    nav ul li {
+      margin: 10px 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: blue;
+    }
+
+    .content {
+      width: 80%;
+      background-color: pink;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    footer {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Praktikum Pemrograman Web</h1>
+    <h3>Yasmine Artamevia (0110222009) - Teknik Informatika 2022</h3>
+  </header>
+
+  <div class="main">
+    <nav>
+      <ul>
+        <li><a href="praktikum1.html" target="isiFrame">Praktikum 1</a></li>
+        <li><a href="praktikum2.html" target="isiFrame">Praktikum 2</a></li>
+      </ul>
+    </nav>
+
+    <section class="content">
+      <iframe name="isiFrame" src="praktikum2.html"></iframe>
+    </section>
+  </div>
+
+  <footer>
+    <p>Dev By Yasmine © 2025</p>
+  </footer>
+
+</body>
+</html>
